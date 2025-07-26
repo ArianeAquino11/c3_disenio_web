@@ -1,0 +1,357 @@
+body{
+    background-color: #f3e9c0;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #444;
+}
+
+.logo img {
+  width: 40px;
+  height: auto;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ff9900;
+}
+
+
+.contenedor {
+  position: absolute;
+  display: inline-block;
+}
+
+.content img {
+  display: block;
+  width: 100%;
+   margin-top: 20px;
+  margin: -8px;
+}
+
+.text{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: left;
+  margin-top: 20px;
+  padding: 150px 150px;
+  font-size: 20px;
+  transition:transform 1.0s;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+.text h1{
+  color: beige;
+  text-align: left;
+}
+.text button {
+  margin-top: 20px;
+  padding: 20px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(244, 214, 194, 0.8);
+  color: #333;
+  border-radius: 10px;
+  transition: background-color 0.3s, transform 1.0s;
+  font-family:'Poppins', sans-serif;
+   position: relative;
+  top: 30px;
+}
+
+.text button:hover {
+  background-color: rgba(255, 255, 255, 1);
+  transform: scale(1.1);
+}
+.tex:hover{
+  transform: scale(1.1);
+}
+
+.ANIMAL {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-color: #fff0d4;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo común a todos */
+.ANIMAL nav {
+  position: absolute;
+  width: 300px;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.ANIMAL img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.ANIMAL img:hover {
+  transform: scale(1.05);
+}
+
+.ANIMAL h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #444;
+}
+
+/* Posiciones ordenadas: 2 columnas, 2 filas */
+.DOGS {
+  top: 5%;
+  left: 5%;
+}
+
+.HAMSTERS {
+  top: 40px;
+  left: 38%;
+}
+
+.CATS {
+  top: 5%;
+  left: 72%;
+}
+
+.PARROTS {
+  top: 50%;
+  left: 38%;
+}
+.pet-food-shop {
+  background-color: #fffaf0;
+  padding: 50px 30px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.pet-food-shop h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.food-nav {
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.food-nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.food-nav a:hover {
+  color: #ff9900;
+  text-decoration: underline;
+}
+
+.food-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.food-item {
+  background-color: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.food-item:hover {
+  transform: translateY(-5px);
+}
+
+.food-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.food-item h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.food-item p {
+  font-size: 14px;
+  color: #555;
+}
+.pet-hotel {
+  background-color: #fff8e1;
+  padding: 60px 30px;
+  font-family: 'Poppins', sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+.hotel-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  
+}
+
+.hotel-text {
+  flex: 1 1 400px;
+  max-width: 600px;
+}
+
+.hotel-text h2 {
+  font-size: 36px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.hotel-text p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.hotel-text button {
+  background-color: #12f1f1;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hotel-text button:hover {
+  background-color: #f4b400;
+}
+
+.hotel-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.site-footer {
+  background-color: #333; /* gris oscuro */
+  color: #f4f4f4;
+  padding: 50px 20px;
+  font-family: 'Poppins', sans-serif;
+  border-top: 5px solid #ffcc00;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.site-footer h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #ffe132;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-links a,
+.footer-contact a,
+.footer-social a {
+  color: #f4f4f4;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover,
+.footer-contact a:hover,
+.footer-social a:hover {
+  color: #ffcc00;
+}
+
+.footer-contact p,
+.footer-social p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-message {
+  margin-top: 20px;
+  font-style: italic;
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+
